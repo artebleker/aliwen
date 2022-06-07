@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* TIPOGRAFIAS */
+h1, h2, h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h4, h5, h6{
+    font-family: 'Oxygen', sans-serif;
+}
+
+p, li{
+    font-family: 'Caveat', cursive;
+}
