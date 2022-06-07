@@ -9,10 +9,10 @@ h1, h2, h3{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-h4, h5, h6{
+li, a, h5, h6{
     font-family: 'Oxygen', sans-serif;
 }
 
-p, li{
+p, h4{
     font-family: 'Caveat', cursive;
 }

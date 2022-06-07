@@ -1,14 +1,23 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { NavData } from "./NavData";
+import './header.css'
 const NavBar = () => {
   return (
     <div>
-      <div>
-        <a href='https://www.instagram.com/aliwen.nat/?hl=es-la'>instagram</a>
-        <a href='https://www.instagram.com/aliwen.nat/?hl=es-la'>mail</a>
+      <div className="header-social-container">
+        <ul className="header-social">
+          <li>
+            <a href="https://www.instagram.com/aliwen.nat/?hl=es-la">
+              instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/aliwen.nat/?hl=es-la">mail</a>
+          </li>
+        </ul>
       </div>
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg bg-light header-navbar">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to={"/"}>
             Aliwen Logo
@@ -33,7 +42,7 @@ const NavBar = () => {
                       <li key={index} className="nav-item dropdown">
                         <a
                           className="nav-link dropdown-toggle"
-                          href='#'
+                          href="#"
                           id="navbarDropdownMenuLink"
                           role="button"
                           data-bs-toggle="dropdown"
@@ -45,21 +54,32 @@ const NavBar = () => {
                           className="dropdown-menu"
                           aria-labelledby="navbarDropdownMenuLink"
                         >
-                          
                           {nav.dropdown.map((n, index) => {
                             return (
                               <li key={index}>
-                                <NavLink className="dropdown-item" to={n.path}>
+                                <NavLink
+                                  className={({ isActive }) =>
+                                    isActive
+                                      ? "dropdown-item active"
+                                      : "dropdown-item"
+                                  }
+                                  to={n.path}
+                                >
                                   {n.title}
                                 </NavLink>
                               </li>
-                            )
+                            );
                           })}
                         </ul>
                       </li>
                     ) : (
                       <li key={index} className="nav-item">
-                        <NavLink className="nav-link" to={nav.path}>
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "nav-link active" : "nav-link"
+                          }
+                          to={nav.path}
+                        >
                           {nav.title}
                           {nav.icon}
                         </NavLink>

@@ -1,0 +1,19 @@
+.header-social-container{
+    background-color: #E9E3E3;
+    width: 100%;
+    height: 25px;
+}
+
+.header-social{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-navbar{
+    background-color: #CAC2C2 !important ;
+    height: 90px;
+}
+.header-navbar a{
+    color: #484545;
+    font-size: 1.5rem;
+}
