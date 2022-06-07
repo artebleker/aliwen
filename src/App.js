@@ -10,6 +10,8 @@ import Detail from './pages/Detail'
 import Error404 from './pages/Error404'
 import Kits from './pages/Kits'
 import Cart from './pages/Cart'
+import Wholesaler from './pages/Wholesaler'
+import Footer from './components/footer/Footer'
 function App() {
   return (
     <>
@@ -22,9 +24,11 @@ function App() {
        <Route path="/terminos-y-condiciones" element={<Conditions/>}/>
        <Route path="/producto/:productName" element={<Detail/>}/>
        <Route path="/kits-para-regalar" element={<Kits/>}/>
+       <Route path="/mayorista" element={<Wholesaler/>}/>
        <Route path="/mis-compras" element={<Cart/>}/>
        <Route path="*" element={<Error404/>}/>
      </Routes>
+     <Footer/>
      </BrowserRouter> 
     </>
   );
