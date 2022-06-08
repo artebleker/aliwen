@@ -11,7 +11,9 @@
 
 .header-navbar{
     background-color: #CAC2C2 !important ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 90px;
+    min-height: 90px;
 }
 .header-navbar a{
     color: #484545;

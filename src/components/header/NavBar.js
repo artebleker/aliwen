@@ -8,12 +8,12 @@ const NavBar = () => {
       <div className="header-social-container">
         <ul className="header-social">
           <li>
-            <a href="https://www.instagram.com/aliwen.nat/?hl=es-la">
+            <a target='_blank' rel='noreferrer' href="https://www.instagram.com/aliwen.nat/?hl=es-la">
               instagram
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/aliwen.nat/?hl=es-la">mail</a>
+            <a target='_blank' rel='noreferrer' href="https://www.instagram.com/aliwen.nat/?hl=es-la">mail</a>
           </li>
         </ul>
       </div>

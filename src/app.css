@@ -1,18 +1,30 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 /* TIPOGRAFIAS */
-h1, h2, h3{
-    font-family: 'Josefin Sans', sans-serif;
+h1,
+h2,
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #c09090 !important;
+  font-weight: 500 !important;
+  text-shadow: 0px 0px 14px rgba(115, 143, 120, 0.22);
 }
 
-li, a, h5, h6{
-    font-family: 'Oxygen', sans-serif;
+li,
+a,
+h5,
+h6 {
+  font-family: "Oxygen", sans-serif;
 }
 
-p, h4{
-    font-family: 'Caveat', cursive;
+p,
+h4 {
+  font-family: "Caveat", cursive;
+  color: #738f78 !important;
+  font-style: normal;
+  font-weight: 400 !important;
 }

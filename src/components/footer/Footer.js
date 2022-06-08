@@ -4,7 +4,7 @@ import { FooterLegal, FooterNav } from "./FooterData";
 import "./footer.css";
 const Footer = () => {
   return (
-    <div className="footer container container-fluid">
+    <div className="footer">
       <ul>
         {FooterNav.map((fN, index) => {
           return (
@@ -41,10 +41,10 @@ const Footer = () => {
       </ul>
       <ul>
         <li>
-          <a href="https://www.instagram.com/aliwen.nat/?hl=es-la">instagram</a>
+          <a target='_blank' rel='noreferrer' href="https://www.instagram.com/aliwen.nat/?hl=es-la">instagram</a>
         </li>
         <li>
-          <a href="https://www.instagram.com/aliwen.nat/?hl=es-la">mail</a>
+          <a target='_blank' rel='noreferrer' href="https://www.instagram.com/aliwen.nat/?hl=es-la">mail</a>
         </li>
       </ul>
     </div>
