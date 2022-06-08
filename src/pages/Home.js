@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div className='home-hotsales'>
         <h3>Lo más vendido</h3>
-        <div>
+        <div> 
           {/* {hotSales.map(hs, index)=>{
             return(
                 <ProductCard/>
