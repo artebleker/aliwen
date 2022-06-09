@@ -14,9 +14,9 @@ const Home = () => {
         <div className="home-hotsales">
           <h3 className="text-center">Lo más vendido</h3>
           <div className="products-hotsales">
-            {testHotSales.map((hotSale) => {
+            {testHotSales.map((hotSale, index) => {
               return (
-                <Product
+                <Product key={index}
                   productData={testProducts.find((f) => f.id === hotSale)}
                 />
               );

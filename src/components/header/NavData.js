@@ -1,3 +1,5 @@
+import {FiGift} from "react-icons/fi";
+
 export const NavData = [
     {
       title: "Catálogo",
@@ -30,7 +32,7 @@ export const NavData = [
     {
       title: "Kits",
       path: "/kits-para-regalar",
-      icon: null
+      icon: <FiGift fontSize={20} color='#484545'/>
     },
     {
       title: "Nosotros",
