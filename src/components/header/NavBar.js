@@ -1,7 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { NavData } from "./NavData";
-import './header.css'
+import './header.css';
+import {TiSocialInstagram, TiMail} from "react-icons/ti";
 const NavBar = () => {
   return (
     <div>
@@ -9,11 +10,11 @@ const NavBar = () => {
         <ul className="header-social">
           <li>
             <a target='_blank' rel='noreferrer' href="https://www.instagram.com/aliwen.nat/?hl=es-la">
-              instagram
+              <TiSocialInstagram fontSize={32} color={'#738f78'}/>
             </a>
           </li>
           <li>
-            <a target='_blank' rel='noreferrer' href="https://www.instagram.com/aliwen.nat/?hl=es-la">mail</a>
+            <a target='_blank' rel='noreferrer' href='mailto:aliwen.nat@gmail.com'><TiMail fontSize={36} color={'#738f78'}/></a>
           </li>
         </ul>
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { FooterLegal, FooterNav } from "./FooterData";
 import "./footer.css";
+import {TiSocialInstagram, TiMail} from "react-icons/ti";
 const Footer = () => {
   return (
     <div className="footer">
@@ -41,10 +42,12 @@ const Footer = () => {
       </ul>
       <ul>
         <li>
-          <a target='_blank' rel='noreferrer' href="https://www.instagram.com/aliwen.nat/?hl=es-la">instagram</a>
+        <a target='_blank' rel='noreferrer' href="https://www.instagram.com/aliwen.nat/?hl=es-la">
+              <TiSocialInstagram fontSize={42} color={'#738f78'}/>
+            </a>
         </li>
         <li>
-          <a target='_blank' rel='noreferrer' href="https://www.instagram.com/aliwen.nat/?hl=es-la">mail</a>
+        <a target='_blank' rel='noreferrer' href='mailto:aliwen.nat@gmail.com'><TiMail fontSize={46} color={'#738f78'}/></a>
         </li>
       </ul>
     </div>

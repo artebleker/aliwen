@@ -2,44 +2,44 @@ export const NavData = [
     {
       title: "Catálogo",
       path: "/catalogo",
-      icon: false,
+      icon: null,
       dropdown:
       [
           {
             title: "Shampoo Solido",
             path: "/catalogo/shampoo-solido",
-            icon: false,
+            icon: null,
           },
           {
             title: "Jabón Vegano",
             path: "/catalogo/jabon-vegano",
-            icon: false,
+            icon: null,
           },
           {
             title: "Rolon",
             path: "/catalogo/rolon",
-            icon: false,
+            icon: null,
           },
           {
             title: "Más...",
             path: "/catalogo/mas-productos",
-            icon: false,
+            icon: null,
           },
       ]
     },
     {
       title: "Kits",
       path: "/kits-para-regalar",
-      icon: false
+      icon: null
     },
     {
       title: "Nosotros",
       path: "/nosotros",
-      icon: false
+      icon: null
     },
     {
       title: "Mayorista",
       path: "/mayorista",
-      icon: false
+      icon: null
     }
   ]

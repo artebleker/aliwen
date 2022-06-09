@@ -1,12 +1,14 @@
 .header-social-container{
     background-color: #E9E3E3;
     width: 100%;
-    height: 25px;
+    height: 40px;
 }
 
 .header-social{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: end;
 }
 
 .header-navbar{

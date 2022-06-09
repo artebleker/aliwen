@@ -19,7 +19,8 @@ function App() {
      <BrowserRouter>
      <NavBar/>
      <Routes>
-       <Route path={"/" || '/aliwen'} element={<Home/>}/>
+       <Route path="/" element={<Home/>}/>
+       <Route path='/aliwen' element={<Home/>}/>
        <Route path="/nosotros" element={<AboutUs/>}/>
        <Route path="/catalogo/:category" element={<Catalogue/>}/>
        <Route path="/terminos-y-condiciones" element={<Conditions/>}/>

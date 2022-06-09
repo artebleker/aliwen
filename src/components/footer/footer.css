@@ -3,9 +3,13 @@
     flex-direction: row;
     width: 100%;
     background-color: #E9E3E3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0px 10px;
 }
 
 ul, .footer-link{
     list-style:none;
     text-decoration: none;
+    color: #738f78;
 }
