@@ -9,12 +9,12 @@ const CartWidget = () => {
     <div>
       <button className="btn btn-link">
         <HiOutlineShoppingBag fontSize={50} color="#484545" />
-      </button>
       {cant > 0 && (
-          <div className="cart-circle">
+        <div className="cart-circle">
           <p className="cart-cant">{cant}</p>
           </div>
       )}
+      </button>
     </div>
   )
 }

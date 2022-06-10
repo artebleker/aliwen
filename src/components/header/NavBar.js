@@ -7,7 +7,7 @@ import CartWidget from "../cart/CartWidget";
 const NavBar = () => {
   return (
     <div>
-      <div className="header-social-container">
+      <div className="header-social-container ">
         <ul className="header-social">
           <li>
             <a
@@ -29,7 +29,7 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      <nav className="navbar navbar-expand-lg bg-light header-navbar">
+      <nav className="navbar navbar-expand-lg bg-light header-navbar ">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to={"/"}>
             Aliwen Logo
@@ -42,16 +42,17 @@ const NavBar = () => {
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+          <div className="collapse navbar-collapse dropdown-position" id="navbarNav"  >
+            <ul className="navbar-nav "  >
               {NavData.map((nav, index) => {
                 return (
                   <div key={index}>
                     {nav.dropdown ? (
-                      <li className="nav-item dropdown">
+                      <li className="nav-item dropdown ">
                         <a
                           className="nav-link dropdown-toggle"
                           href="#"
@@ -103,7 +104,9 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
+        
         <CartWidget />
+      
       </nav>
     </div>
   );

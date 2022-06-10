@@ -21,3 +21,20 @@
     color: #484545;
     font-size: 1.5rem;
 }
+
+.navbar{
+    flex-wrap: nowrap;
+}
+
+
+@media screen and (max-width: 991px) {
+    
+    .dropdown-position{
+        position: absolute;
+        right: 50px;
+        top: 85px;
+        background-color: #CAC2C2;
+        padding: 0px 15px;
+       
+    }
+}
