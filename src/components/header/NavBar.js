@@ -64,7 +64,7 @@ const NavBar = () => {
                           {nav.title}
                         </a>
                         <ul
-                          className="dropdown-menu"
+                          className="dropdown-menu drop-props"
                           aria-labelledby="navbarDropdownMenuLink"
                         >
                           {nav.dropdown.map((n, index) => {

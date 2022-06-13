@@ -26,15 +26,31 @@
     flex-wrap: nowrap;
 }
 
+.drop-props{
+    background-color:#CAC2C2 ;
+    box-shadow: 0px 4px 4px 4px rgba(115, 143, 120, 0.22);
+    border: none;
+}
+
 
 @media screen and (max-width: 991px) {
     
     .dropdown-position{
+        box-shadow: 0px 3px 3px 3px rgba(115, 143, 120, 0.22);
         position: absolute;
+        width: 230px;
         right: 50px;
         top: 85px;
         background-color: #CAC2C2;
         padding: 0px 15px;
-       
+        z-index: 1;
+        border-radius: 15px;
+    }
+    .drop-props{
+        background-color:#dacece ;
+        box-shadow: none;
+    }
+    .drop-props li a{
+        font-size: 1.2rem;
     }
 }
