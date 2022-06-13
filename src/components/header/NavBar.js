@@ -42,27 +42,33 @@ const NavBar = () => {
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
-
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse dropdown-position" id="navbarNav"  >
-            <ul className="navbar-nav "  >
+          <div
+            className="collapse navbar-collapse dropdown-position"
+            id="navbarNav"
+          >
+            <ul className="navbar-nav ">
               {NavData.map((nav, index) => {
                 return (
                   <div key={index}>
                     {nav.dropdown ? (
-                      <li className="nav-item dropdown ">
-                        <a
-                          className="nav-link dropdown-toggle"
-                          href="#"
-                          id="navbarDropdownMenuLink"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
+                      <li className="nav-item dropdown dropdown-line">
+                        <NavLink
+                          className={({ isActive }) =>
+                            isActive ? "nav-link active" : "nav-link"
+                          }
+                          to={nav.path}
                         >
                           {nav.title}
-                        </a>
+                        </NavLink>
+                        <button
+                          className="nav-link dropdown-toggle btn-link btn"
+                          id="navbarDropdownMenuLink"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        ></button>
                         <ul
                           className="dropdown-menu drop-props"
                           aria-labelledby="navbarDropdownMenuLink"
@@ -104,9 +110,8 @@ const NavBar = () => {
             </ul>
           </div>
         </div>
-        
+
         <CartWidget />
-      
       </nav>
     </div>
   );

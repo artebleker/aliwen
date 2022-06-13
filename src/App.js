@@ -23,6 +23,7 @@ function App() {
        <Route path='/aliwen' element={<Home/>}/>
        <Route path="/nosotros" element={<AboutUs/>}/>
        <Route path="/catalogo/:category" element={<Catalogue/>}/>
+       <Route path="/catalogo" element={<Catalogue/>}/>
        <Route path="/terminos-y-condiciones" element={<Conditions/>}/>
        <Route path="/producto/:productName" element={<Detail/>}/>
        <Route path="/kits-para-regalar" element={<Kits/>}/>
