@@ -3,7 +3,7 @@ import React, { createContext, useEffect, useState } from "react";
 export const DataContext = createContext();
 const DataContextProvider = ({ children }) => {
   //product
-  const [product, setProduct] = useState([]);
+  const [product, setProduct] = useState({});
 
   return (
     <DataContext.Provider

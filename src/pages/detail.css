@@ -1,0 +1,48 @@
+.detail {
+  margin: 40px;
+}
+.detail h1 {
+  text-align: center;
+}
+
+.product-card {
+  background: #e9e3e3;
+  box-shadow: 0px 4px 6px rgba(115, 143, 120, 0.22);
+  margin: 20px 60px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 20px;
+}
+
+.name-pic-price {
+  text-align: center;
+}
+
+.description-counter {
+  display: grid;
+  grid-template-areas:
+    "p p p"
+    "ul ul b"
+    "ul ul b";
+  grid-row-gap: 20px;
+  place-content: center;
+  margin: 10px;
+}
+
+.p-grid {
+  grid-area: p;
+}
+.ul-grid {
+  grid-area: ul;
+}
+
+.btn-grid {
+  grid-area: b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+}

@@ -39,6 +39,7 @@
 
 .btn-form {
   width: 170px;
+  max-width: 170px;
   height: 90px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;

@@ -1,0 +1,17 @@
+.display {
+  width: 258px;
+  height: 51px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.display p {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #738f78;
+  padding-top: 7px;
+}
+
