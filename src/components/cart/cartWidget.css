@@ -4,9 +4,10 @@
   background: #de7575;
   box-shadow: 1px 1px 3px rgba(115, 143, 120, 0.22);
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  /* justify-content: center;
+  align-items: center; */
+  place-content: center;
   position: absolute;
   top: 47px;
   right: 40px;
@@ -19,4 +20,5 @@
   font-size: 26px;
   line-height: 26px;
   color: #ffffff !important;
+  margin-top: 17px;
 }
