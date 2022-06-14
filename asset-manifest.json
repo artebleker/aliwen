@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/aliwen/static/css/main.2bb8ddf0.css",
-    "main.js": "/aliwen/static/js/main.e46204b4.js",
+    "main.css": "/aliwen/static/css/main.d92732b1.css",
+    "main.js": "/aliwen/static/js/main.011332c7.js",
     "index.html": "/aliwen/index.html",
-    "main.2bb8ddf0.css.map": "/aliwen/static/css/main.2bb8ddf0.css.map",
-    "main.e46204b4.js.map": "/aliwen/static/js/main.e46204b4.js.map"
+    "main.d92732b1.css.map": "/aliwen/static/css/main.d92732b1.css.map",
+    "main.011332c7.js.map": "/aliwen/static/js/main.011332c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bb8ddf0.css",
-    "static/js/main.e46204b4.js"
+    "static/css/main.d92732b1.css",
+    "static/js/main.011332c7.js"
   ]
 }
