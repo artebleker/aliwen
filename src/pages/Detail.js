@@ -1,11 +1,14 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import Counter from '../components/counter/Counter'
 import Display from '../components/display/Display'
 
-const Detail = ({product}) => {
+const Detail = () => {
+
+
+
   return (
     <div>
-      <h1>{product.name}</h1>
+      {/* <h1>{product.name}</h1>
       <div className='product-card'>
         <div className='name-pic-price'>
           {product.subname&&
@@ -26,7 +29,7 @@ const Detail = ({product}) => {
           <Display/>
           <button>Agregar al carrito</button>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

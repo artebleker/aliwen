@@ -6,7 +6,7 @@ const Product = (productData) => {
 
   return (
     <div className='container container-fluid'>
-     <Link to={`/producto/${productData.productData.path}`}>
+     <Link to={`/producto/${productData.productData.path}`} >
        <img src={productData.productData.photo} alt={productData.productData.name} className='product img-fluid'></img>
      </Link>
       <h4>{productData.productData.name}</h4>
